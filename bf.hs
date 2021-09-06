@@ -68,4 +68,4 @@ helper n o c (x:xs)
 main = do
     program <- fmap interpret getLine
     S.evalStateT (execute (program,[])) (repeat 0,[])
-
+-- done
