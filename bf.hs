@@ -20,7 +20,7 @@ comment = noneOf validCommands
 parseBF :: Parser String
 parseBF = fmap concat $ sepBy (many command) (many1 comment)
 
-type ListZipper a = ([a,][a])
+type ListZipper a = ([a],[a])
 
 type Program S.StateT (ListZipper Int) IO
 
