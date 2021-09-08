@@ -1,5 +1,5 @@
 import Text.ParserCombinators.Parsec
--- import Data.Char
+import Data.Char
 import qualified Control.Monad.Trans as T
 import qualified Control.Monad.Trans.State as S
 
