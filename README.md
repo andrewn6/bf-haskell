@@ -6,7 +6,7 @@ A brain fuck intepreter, written in haskell as a begginer project. 🧠
 - Step 2: ./bf
 
 ## Rules/Conditionals
-- > move cell pointer forward
+- ">" move cell pointer forward
 - < move cell pointer backward
 - + increment current cell
 - decrement current cell
